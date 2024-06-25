@@ -8,10 +8,15 @@ body {
     flex-direction: column;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
-    height: 60px;
     background-color: #1F2937;
     color: #F9FAFB;
+    padding: 24px 200px;
 
     display: flex;
     align-items: center;
@@ -34,4 +39,34 @@ ul {
 a {
     text-decoration: none;
     color: #F9FAFB;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section {
+    flex: 1;
+    background-color: #1F2937;
+    color: #F9FAFB;
+    padding: 48px 200px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.image-holder {
+    flex: 1;
+}
+
+.image-holder img {
+    width: 500px;
 }
