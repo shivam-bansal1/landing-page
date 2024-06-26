@@ -147,3 +147,43 @@ a {
     color: #1F2937;
     font-weight: 600;
 }
+
+.fourth-section {
+    background-color: #3882F6;
+    color: #F9FAFB;
+
+    margin: 70px 200px;
+    padding: 48px 100px;
+
+    display: flex;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-container .sub-title {
+    margin-top: 4px;
+    color: rgb(215, 215, 215);
+    font-size: 12px;
+}
+
+.button-container .sign-up-button {
+    border: 1px solid #F9FAFB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAFB;
+    padding: 28px 200px;
+    font-size: 10px;
+    font-weight: 300;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
