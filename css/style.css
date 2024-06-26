@@ -84,7 +84,9 @@ a {
 }
 
 .second-section {
-    padding: 48px 200px;
+    padding: 48px 250px;
+    margin-bottom: 48px;
+    flex: 1;
 }
 .second-section-title {
     color: #1F2937;
@@ -123,3 +125,25 @@ a {
     text-align: center;
 }
 
+.third-section {
+    background-color: #E5E7EB;
+    flex: 1;
+
+    padding: 48px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 48px;
+    color: #1F2937;
+}
+
+.author {
+    text-align: end;
+    padding-right: 24px;
+    color: #1F2937;
+    font-weight: 600;
+}
